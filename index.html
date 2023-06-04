@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ind.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/186/186313.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        <div class="head">
+            <div class="slides fade">
+                <img src="z6.jpg" style="width:100%">
+              </div>
+              
+              <div class="slides fade">
+                <img src="z3.jpg" style="width:100%">
+              </div>
+              
+              <div class="slides fade">
+                <img src="z4.jpg" style="width:100%">
+              </div>
+            <div class="h1">
+                <h1>Mark Zuckerberg</h1>
+            </div>
+        </div>
+        <div class="about">
+            <div class="a1">
+                <h1>About</h1>
+                <p>
+                    Mark Zuckerberg is an American computer programmer <br>
+                     and Internet entrepreneur. He is a co-founder and the <br>
+                      chief executive officer of Facebook, one of the most <br>
+                       popular social networking websites in the world. <br>
+                       Zuckerberg is also the co-founder of the Chan Zuckerberg <br>
+                        Initiative, a philanthropic organization that focuses <br>
+                         on education, health, and science. <br>
+                   
+                        <br> In 2012, Zuckerberg married Priscilla Chan, a <br>
+                         fellow Harvard student. The couple has two daughters.
+                </p>
+            </div>
+            <div class="a2">
+                <img src="z2.webp" alt="">
+            </div>
+        </div>
+        <div class="bio">
+            <div class="b1">
+                <img src="z5.jpg" alt="">
+            </div>
+            <div class="b2">
+                <h1>Biography</h1>
+                <p>Zuckerberg was born in White Plains, New York, in 1984. He <br>
+                     attended Harvard University, where he studied computer science <br>
+                      and philosophy. In 2004, while still a student at Harvard, Zuckerberg <br>
+                       co-founded Facebook with Eduardo Saverin, Andrew McCollum, <br>
+                       Dustin Moskovitz, and Chris Hughes. The website quickly gained popularity, <br>
+                        and by 2006 it had over 100 million users. In 2012, Facebook <br>
+                         went public and Zuckerberg became a billionaire. <br>
+                    <br> Early life and education :-- <br>
+                    
+                     <br>->>Zuckerberg attended Ardsley High School in Ardsley, New York, <br>
+                       before transferring to Phillips Exeter Academy, a <br>
+                     private boarding school in Exeter, New Hampshire. <br>
+                    
+                    <br> Co-founding Facebook:-- <br>
+                    
+                    <br> ->>In 2003, Zuckerberg enrolled at Harvard University, <br>
+                     where he studied computer science and philosophy. While at Harvard, <br>
+                      Zuckerberg co-founded Facebook with Eduardo Saverin, Andrew <br>
+                       McCollum, Dustin Moskovitz, and Chris Hughes. The website was <br>
+                        originally called "Thefacebook" and was designed to allow Harvard <br>
+                         students to connect with each other. Thefacebook quickly gained popularity <br>
+                          and by 2004 it had over 1 million users. <br>
+                    
+                    <br> ->>In 2005, Zuckerberg dropped out of Harvard to focus on Facebook. <br>
+                     The company moved its headquarters to Palo Alto, California, and Zuckerberg <br>
+                      became its CEO. Under Zuckerberg's leadership, Facebook has grown <br>
+                       into one of the most popular social networking websites in the world. <br>
+                        It has over 2 billion active users and is used by people of all ages, <br>
+                         from all over the world. <br>
+                    
+                    <br> Philanthropy <br>
+                    
+                    <br> ->>In 2015, Zuckerberg and his wife, Priscilla Chan, co-founded <br>
+                    the Chan Zuckerberg Initiative, a philanthropic organization that <br>
+                    focuses on education, health, and science. The organization has pledged <br>
+                    to donate $99 billion over the next 50 years.
+                
+                </p>
+            </div>
+        </div> 
+        <div class="links">
+            <div class="bottom">
+                <h2>To know more about him:--</h2>
+                <ul>
+                    <li><a target="_blank" href="https://www.instagram.com/zuck/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/finkd?lang=en"><i class="fab fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="https://facebook.com/zuck"><i class="fab fa-facebook-messenger"></i></a></li>
+                    <li><a target="_blank" href="https://youtube.com/@Zuckerberg"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div> 
+        </div>       
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slideshow = document.getElementsByClassName("slides");
+      for (i = 0; i < slideshow.length; i++) {
+        slideshow[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slideshow.length) {slideIndex = 1}    
+
+      slideshow[slideIndex-1].style.display = "block";  
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+</script>
+
+</body>
+</html>

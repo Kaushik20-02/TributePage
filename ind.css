@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.head{
+    background-color: rgb(65, 59, 72);
+    width: 100%;
+    right: 0;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+h1{
+    color: aliceblue;
+    letter-spacing: 3px;
+    font-size: 5rem;
+    font-weight: 900;
+    margin-left: 4rem;
+}
+.slides>img{
+    width: 42rem;
+    border-radius: 2rem;
+    margin: 2rem;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(55, 48, 63);
+    padding: 4rem;
+}
+.a2>img{
+    width: 22rem;
+    border-radius: 2rem;
+    transition: .5s;
+}
+.a2>img:hover,.b1>img:hover{
+    scale: 1.1;
+}
+p{
+    color: rgb(155, 154, 156);
+    margin-top: 1rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+
+.bio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    gap: 4rem;
+    background-color: rgb(69, 64, 80);
+}
+.b1>img{
+    width: 28rem;
+    height: 31rem;
+    border-radius: 2rem;
+    transition: .5s;
+}
+.bottom{
+    padding: 2rem;
+    border-top-right-radius: 4rem;
+    border-top-left-radius: 4rem;
+    background-color: rgb(121, 110, 141);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    color: aliceblue;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+li>a{
+    color: rgb(241, 201, 217);
+    font-size: 1.5rem;
+    transition: .5s;
+}
+li>a:hover{
+    color: azure;
+}
+.links{
+    background-color: rgb(69, 64, 80);
+}
