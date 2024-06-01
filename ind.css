@@ -90,3 +90,11 @@ li>a:hover{
 .links{
     background-color: rgb(69, 64, 80);
 }
+#preloader{
+    background: #f47575 url(Dog.gif) no-repeat center center;
+    margin-top: -10rem;
+    height: 130%;
+    width: 100%;
+    position: fixed;
+    z-index: 2000;
+}
